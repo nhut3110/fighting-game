@@ -1,0 +1,19 @@
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html {
+   min-height: 100%;
+   background-image: url("Game Assets/background.jpg");
+   background-size: cover;
+   background-position: center center;
+}
+
+
+
